@@ -1,0 +1,565 @@
+DEBUG [main] 2019-01-13 04:25:48 (SpringJUnit4ClassRunner.java:139) SpringJUnit4ClassRunner constructor called with [class com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:48 (BootstrapUtils.java:96) Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+DEBUG [main] 2019-01-13 04:25:48 (BootstrapUtils.java:79) Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+DEBUG [main] 2019-01-13 04:25:48 (BootstrapUtils.java:132) Instantiating TestContextBootstrapper for test class [com.cheer.test] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+DEBUG [main] 2019-01-13 04:25:48 (AbstractDelegatingSmartContextLoader.java:263) Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+DEBUG [main] 2019-01-13 04:25:48 (ActiveProfilesUtils.java:79) Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:48 (AbstractTestContextBootstrapper.java:125) @TestExecutionListeners is not present for class [com.cheer.test]: using defaults.
+DEBUG [main] 2019-01-13 04:25:48 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:48 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (AbstractDirtiesContextTestExecutionListener.java:142) Before test class: context [DefaultTestContext@3270d194 testClass = test, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:25:49 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:25:49 (DependencyInjectionTestExecutionListener.java:81) Performing dependency injection for test context [[DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+DEBUG [main] 2019-01-13 04:25:49 (AbstractDelegatingSmartContextLoader.java:273) Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+DEBUG [main] 2019-01-13 04:25:49 (AbstractGenericContextLoader.java:109) Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.class]
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.class]
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.class]
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.class]
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.class]
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'itemsMapper' and 'com.cheer.mapper.ItemsMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'itemsMapperCustom' and 'com.cheer.mapper.ItemsMapperCustom' mapperInterface
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'orderdetailMapper' and 'com.cheer.mapper.OrderdetailMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'ordersMapper' and 'com.cheer.mapper.OrdersMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:25:51 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'userMapper' and 'com.cheer.mapper.UserMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:25:53 (JakartaCommonsLoggingImpl.java:54) Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Class not found: org.jboss.vfs.VFS
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) JBoss 6 VFS API is not available in this environment.
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: Items.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsCustom.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: Orderdetail.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: Orders.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: User.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Listing file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Items.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Items.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 B
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsCustom.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsCustom.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4D
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 -
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orderdetail.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orderdetail.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 '
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orders.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orders.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 :
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4?
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/User.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/User.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 :
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4s
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Items matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsCustom matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsQueryVo matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Orderdetail matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Orders matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.User matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Scanned package: 'com.cheer.model' for aliases
+DEBUG [main] 2019-01-13 04:25:54 (LogFactory.java:135) Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Parsed configuration file: 'class path resource [mybatis-config.xml]'
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.xml]'
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.xml]'
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.xml]'
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.xml]'
+DEBUG [main] 2019-01-13 04:25:54 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.xml]'
+DEBUG [main] 2019-01-13 04:25:55 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:25:55 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [delete*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:25:55 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:25:55 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:25:55 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [find*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:25:55 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [get*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:25:55 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [select*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:25:55 (DefaultCacheAwareContextLoaderDelegate.java:119) Storing ApplicationContext in cache under key [[MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+DEBUG [main] 2019-01-13 04:25:55 (DefaultContextCache.java:290) Spring test ApplicationContext cache statistics: [DefaultContextCache@26a529dc size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+DEBUG [main] 2019-01-13 04:25:55 (AbstractDirtiesContextTestExecutionListener.java:107) Before test method: context [DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = getItems@test, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:25:55 (SqlSessionUtils.java:97) Creating a new SqlSession
+DEBUG [main] 2019-01-13 04:25:55 (SqlSessionUtils.java:148) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d7e7435] was not registered for synchronization because synchronization is not active
+DEBUG [main] 2019-01-13 04:25:55 (DataSourceUtils.java:114) Fetching JDBC Connection from DataSource
+DEBUG [main] 2019-01-13 04:25:55 (SpringManagedTransaction.java:87) JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3c2772d1] will not be managed by Spring
+DEBUG [main] 2019-01-13 04:25:55 (BaseJdbcLogger.java:159) ==>  Preparing: delete from items where id = ? 
+DEBUG [main] 2019-01-13 04:25:55 (BaseJdbcLogger.java:159) ==> Parameters: 3(Integer)
+DEBUG [main] 2019-01-13 04:25:56 (SqlSessionUtils.java:191) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d7e7435]
+DEBUG [main] 2019-01-13 04:25:56 (Log4j2Impl.java:63) {conn-10050, pstmt-20050} exit cache
+DEBUG [main] 2019-01-13 04:25:56 (DataSourceUtils.java:340) Returning JDBC Connection to DataSource
+DEBUG [main] 2019-01-13 04:25:56 (SQLErrorCodesFactory.java:202) Looking up default SQLErrorCodes for DataSource [com.alibaba.druid.pool.DruidDataSource@3e30646a]
+DEBUG [main] 2019-01-13 04:25:56 (DataSourceUtils.java:114) Fetching JDBC Connection from DataSource
+DEBUG [main] 2019-01-13 04:25:56 (DataSourceUtils.java:340) Returning JDBC Connection to DataSource
+DEBUG [main] 2019-01-13 04:25:56 (SQLErrorCodesFactory.java:178) SQL error codes for 'MySQL' found
+DEBUG [main] 2019-01-13 04:25:56 (SQLErrorCodesFactory.java:246) Caching SQL error codes for DataSource [com.alibaba.druid.pool.DruidDataSource@3e30646a]: database product name is 'MySQL'
+DEBUG [main] 2019-01-13 04:25:56 (SQLErrorCodeSQLExceptionTranslator.java:402) Translating SQLException with SQL state '23000', error code '1451', message [Cannot delete or update a parent row: a foreign key constraint fails (`order-system`.`orderdetail`, CONSTRAINT `FK_orderdetail_2` FOREIGN KEY (`items_id`) REFERENCES `items` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)] for task [
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`order-system`.`orderdetail`, CONSTRAINT `FK_orderdetail_2` FOREIGN KEY (`items_id`) REFERENCES `items` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+### The error may involve com.cheer.mapper.ItemsMapper.deleteByPrimaryKey-Inline
+### The error occurred while setting parameters
+### SQL: delete from items     where id = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`order-system`.`orderdetail`, CONSTRAINT `FK_orderdetail_2` FOREIGN KEY (`items_id`) REFERENCES `items` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+]
+DEBUG [main] 2019-01-13 04:25:56 (AbstractDirtiesContextTestExecutionListener.java:107) After test method: context [DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = getItems@test, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:25:56 (AbstractDirtiesContextTestExecutionListener.java:142) After test class: context [DefaultTestContext@3270d194 testClass = test, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:27:29 (SpringJUnit4ClassRunner.java:139) SpringJUnit4ClassRunner constructor called with [class com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:29 (BootstrapUtils.java:96) Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+DEBUG [main] 2019-01-13 04:27:29 (BootstrapUtils.java:79) Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+DEBUG [main] 2019-01-13 04:27:30 (BootstrapUtils.java:132) Instantiating TestContextBootstrapper for test class [com.cheer.test] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+DEBUG [main] 2019-01-13 04:27:30 (AbstractDelegatingSmartContextLoader.java:263) Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+DEBUG [main] 2019-01-13 04:27:30 (ActiveProfilesUtils.java:79) Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (AbstractTestContextBootstrapper.java:125) @TestExecutionListeners is not present for class [com.cheer.test]: using defaults.
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (AbstractDirtiesContextTestExecutionListener.java:142) Before test class: context [DefaultTestContext@3270d194 testClass = test, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:27:30 (DependencyInjectionTestExecutionListener.java:81) Performing dependency injection for test context [[DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+DEBUG [main] 2019-01-13 04:27:30 (AbstractDelegatingSmartContextLoader.java:273) Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+DEBUG [main] 2019-01-13 04:27:30 (AbstractGenericContextLoader.java:109) Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.class]
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.class]
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.class]
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.class]
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.class]
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'itemsMapper' and 'com.cheer.mapper.ItemsMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'itemsMapperCustom' and 'com.cheer.mapper.ItemsMapperCustom' mapperInterface
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'orderdetailMapper' and 'com.cheer.mapper.OrderdetailMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'ordersMapper' and 'com.cheer.mapper.OrdersMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:27:32 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'userMapper' and 'com.cheer.mapper.UserMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Class not found: org.jboss.vfs.VFS
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) JBoss 6 VFS API is not available in this environment.
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: Items.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsCustom.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: Orderdetail.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: Orders.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: User.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Listing file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Items.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Items.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 B
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsCustom.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsCustom.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4D
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 -
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orderdetail.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orderdetail.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 '
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orders.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orders.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 :
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4?
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/User.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/User.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 :
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4s
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Items matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsCustom matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsQueryVo matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Orderdetail matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Orders matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.User matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:27:34 (JakartaCommonsLoggingImpl.java:54) Scanned package: 'com.cheer.model' for aliases
+DEBUG [main] 2019-01-13 04:27:35 (LogFactory.java:135) Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+DEBUG [main] 2019-01-13 04:27:35 (JakartaCommonsLoggingImpl.java:54) Parsed configuration file: 'class path resource [mybatis-config.xml]'
+DEBUG [main] 2019-01-13 04:27:35 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.xml]'
+DEBUG [main] 2019-01-13 04:27:35 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.xml]'
+DEBUG [main] 2019-01-13 04:27:35 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.xml]'
+DEBUG [main] 2019-01-13 04:27:35 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.xml]'
+DEBUG [main] 2019-01-13 04:27:35 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.xml]'
+DEBUG [main] 2019-01-13 04:27:37 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:27:37 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [delete*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:27:37 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:27:37 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:27:37 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [find*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:27:37 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [get*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:27:37 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [select*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:27:37 (DefaultCacheAwareContextLoaderDelegate.java:119) Storing ApplicationContext in cache under key [[MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+DEBUG [main] 2019-01-13 04:27:37 (DefaultContextCache.java:290) Spring test ApplicationContext cache statistics: [DefaultContextCache@26a529dc size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+DEBUG [main] 2019-01-13 04:27:37 (AbstractDirtiesContextTestExecutionListener.java:107) Before test method: context [DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = getItems@test, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:27:37 (SqlSessionUtils.java:97) Creating a new SqlSession
+DEBUG [main] 2019-01-13 04:27:37 (SqlSessionUtils.java:148) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d7e7435] was not registered for synchronization because synchronization is not active
+DEBUG [main] 2019-01-13 04:27:37 (DataSourceUtils.java:114) Fetching JDBC Connection from DataSource
+DEBUG [main] 2019-01-13 04:27:37 (SpringManagedTransaction.java:87) JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@d400943] will not be managed by Spring
+DEBUG [main] 2019-01-13 04:27:37 (BaseJdbcLogger.java:159) ==>  Preparing: SELECT * FROM items WHERE -- 使用动态sql，通过if判断，满足条件进行sql拼接 -- 商品查询条件通过ItemsQueryVo包装对象中的itemsCustom属性传递 
+DEBUG [main] 2019-01-13 04:27:37 (BaseJdbcLogger.java:159) ==> Parameters: 
+DEBUG [main] 2019-01-13 04:27:37 (SqlSessionUtils.java:191) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d7e7435]
+DEBUG [main] 2019-01-13 04:27:37 (Log4j2Impl.java:63) {conn-10050, pstmt-20050} exit cache
+DEBUG [main] 2019-01-13 04:27:37 (DataSourceUtils.java:340) Returning JDBC Connection to DataSource
+DEBUG [main] 2019-01-13 04:27:37 (SQLErrorCodesFactory.java:202) Looking up default SQLErrorCodes for DataSource [com.alibaba.druid.pool.DruidDataSource@3e30646a]
+DEBUG [main] 2019-01-13 04:27:37 (DataSourceUtils.java:114) Fetching JDBC Connection from DataSource
+DEBUG [main] 2019-01-13 04:27:37 (DataSourceUtils.java:340) Returning JDBC Connection to DataSource
+DEBUG [main] 2019-01-13 04:27:37 (SQLErrorCodesFactory.java:178) SQL error codes for 'MySQL' found
+DEBUG [main] 2019-01-13 04:27:37 (SQLErrorCodesFactory.java:246) Caching SQL error codes for DataSource [com.alibaba.druid.pool.DruidDataSource@3e30646a]: database product name is 'MySQL'
+DEBUG [main] 2019-01-13 04:27:37 (SQLErrorCodeSQLExceptionTranslator.java:402) Translating SQLException with SQL state '42000', error code '1064', message [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3] for task [
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+### The error may exist in file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.xml]
+### The error may involve com.cheer.mapper.ItemsMapperCustom.findItemsList-Inline
+### The error occurred while setting parameters
+### SQL: SELECT * FROM items              WHERE --         使用动态sql，通过if判断，满足条件进行sql拼接 --           商品查询条件通过ItemsQueryVo包装对象中的itemsCustom属性传递
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+]
+DEBUG [main] 2019-01-13 04:27:37 (AbstractDirtiesContextTestExecutionListener.java:107) After test method: context [DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = getItems@test, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:27:37 (AbstractDirtiesContextTestExecutionListener.java:142) After test class: context [DefaultTestContext@3270d194 testClass = test, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:29:40 (SpringJUnit4ClassRunner.java:139) SpringJUnit4ClassRunner constructor called with [class com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (BootstrapUtils.java:96) Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+DEBUG [main] 2019-01-13 04:29:41 (BootstrapUtils.java:79) Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+DEBUG [main] 2019-01-13 04:29:41 (BootstrapUtils.java:132) Instantiating TestContextBootstrapper for test class [com.cheer.test] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+DEBUG [main] 2019-01-13 04:29:41 (AbstractDelegatingSmartContextLoader.java:263) Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+DEBUG [main] 2019-01-13 04:29:41 (ActiveProfilesUtils.java:79) Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (AbstractTestContextBootstrapper.java:125) @TestExecutionListeners is not present for class [com.cheer.test]: using defaults.
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (AbstractDirtiesContextTestExecutionListener.java:142) Before test class: context [DefaultTestContext@3270d194 testClass = test, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:70) Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (ProfileValueUtils.java:83) Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cheer.test]
+DEBUG [main] 2019-01-13 04:29:41 (DependencyInjectionTestExecutionListener.java:81) Performing dependency injection for test context [[DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+DEBUG [main] 2019-01-13 04:29:41 (AbstractDelegatingSmartContextLoader.java:273) Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+DEBUG [main] 2019-01-13 04:29:41 (AbstractGenericContextLoader.java:109) Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.class]
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.class]
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.class]
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.class]
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:437) Identified candidate component class: file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.class]
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'itemsMapper' and 'com.cheer.mapper.ItemsMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'itemsMapperCustom' and 'com.cheer.mapper.ItemsMapperCustom' mapperInterface
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'orderdetailMapper' and 'com.cheer.mapper.OrderdetailMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'ordersMapper' and 'com.cheer.mapper.OrdersMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:29:43 (ClassPathMapperScanner.java:180) Creating MapperFactoryBean with name 'userMapper' and 'com.cheer.mapper.UserMapper' mapperInterface
+DEBUG [main] 2019-01-13 04:29:45 (JakartaCommonsLoggingImpl.java:54) Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Class not found: org.jboss.vfs.VFS
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) JBoss 6 VFS API is not available in this environment.
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Class not found: org.jboss.vfs.VirtualFile
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: Items.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsCustom.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: Orderdetail.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: Orders.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: User.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Listing file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Items.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Items.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 B
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsCustom.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsCustom.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4D
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/ItemsQueryVo.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 -
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orderdetail.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orderdetail.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 '
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrderdetailExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orders.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/Orders.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 :
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/OrdersExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4?
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/User.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/User.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 :
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 O
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 �
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$Criterion.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4 J	 
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Find JAR URL: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Not a JAR: file:/E:/Develop/IDEA_work2018/springmvcTest/target/classes/com/cheer/model/UserExample$GeneratedCriteria.class
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Reader entry: ����   4s
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Items matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsCustom matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.ItemsQueryVo matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Orderdetail matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrderdetailExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.Orders matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.OrdersExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.User matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$Criteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$Criterion matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Checking to see if class com.cheer.model.UserExample$GeneratedCriteria matches criteria [is assignable to Object]
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Scanned package: 'com.cheer.model' for aliases
+DEBUG [main] 2019-01-13 04:29:46 (LogFactory.java:135) Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Parsed configuration file: 'class path resource [mybatis-config.xml]'
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.xml]'
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.xml]'
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.xml]'
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.xml]'
+DEBUG [main] 2019-01-13 04:29:46 (JakartaCommonsLoggingImpl.java:54) Parsed mapper file: 'file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.xml]'
+DEBUG [main] 2019-01-13 04:29:48 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:29:48 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [delete*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:29:48 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:29:48 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+DEBUG [main] 2019-01-13 04:29:48 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [find*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:29:48 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [get*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:29:48 (NameMatchTransactionAttributeSource.java:95) Adding transactional method [select*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+DEBUG [main] 2019-01-13 04:29:48 (DefaultCacheAwareContextLoaderDelegate.java:119) Storing ApplicationContext in cache under key [[MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+DEBUG [main] 2019-01-13 04:29:48 (DefaultContextCache.java:290) Spring test ApplicationContext cache statistics: [DefaultContextCache@26a529dc size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+DEBUG [main] 2019-01-13 04:29:48 (AbstractDirtiesContextTestExecutionListener.java:107) Before test method: context [DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = getItems@test, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:29:48 (SqlSessionUtils.java:97) Creating a new SqlSession
+DEBUG [main] 2019-01-13 04:29:48 (SqlSessionUtils.java:148) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d7e7435] was not registered for synchronization because synchronization is not active
+DEBUG [main] 2019-01-13 04:29:48 (DataSourceUtils.java:114) Fetching JDBC Connection from DataSource
+DEBUG [main] 2019-01-13 04:29:48 (SpringManagedTransaction.java:87) JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@d400943] will not be managed by Spring
+DEBUG [main] 2019-01-13 04:29:48 (BaseJdbcLogger.java:159) ==>  Preparing: SELECT * FROM items 
+DEBUG [main] 2019-01-13 04:29:48 (BaseJdbcLogger.java:159) ==> Parameters: 
+DEBUG [main] 2019-01-13 04:29:48 (BaseJdbcLogger.java:159) <==      Total: 3
+DEBUG [main] 2019-01-13 04:29:48 (Log4j2Impl.java:63) {conn-10050, pstmt-20050} enter cache
+DEBUG [main] 2019-01-13 04:29:48 (SqlSessionUtils.java:191) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d7e7435]
+DEBUG [main] 2019-01-13 04:29:48 (DataSourceUtils.java:340) Returning JDBC Connection to DataSource
+DEBUG [main] 2019-01-13 04:29:48 (test.java:33) [com.cheer.model.ItemsCustom@4d8539de, com.cheer.model.ItemsCustom@3eba57a7, com.cheer.model.ItemsCustom@272a179c]
+DEBUG [main] 2019-01-13 04:29:48 (AbstractDirtiesContextTestExecutionListener.java:107) After test method: context [DefaultTestContext@3270d194 testClass = test, testInstance = com.cheer.test@4802796d, testMethod = getItems@test, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+DEBUG [main] 2019-01-13 04:29:48 (AbstractDirtiesContextTestExecutionListener.java:142) After test class: context [DefaultTestContext@3270d194 testClass = test, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@235834f2 testClass = test, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+DEBUG [Thread-1] 2019-01-13 04:29:48 (Log4j2Impl.java:63) {conn-10050, pstmt-20050} exit cache

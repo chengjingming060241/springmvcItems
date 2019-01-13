@@ -1,0 +1,159 @@
+TRACE [main] 2019-01-13 04:25:48 (ContextLoaderUtils.java:266) Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(name=, value=[classpath:spring/applicationContext-*.xml], classes=[], loader=interface org.springframework.test.context.ContextLoader, locations=[classpath:spring/applicationContext-*.xml], initializers=[], inheritLocations=true, inheritInitializers=true)] for declaring class [com.cheer.test].
+TRACE [main] 2019-01-13 04:25:48 (ContextLoaderUtils.java:272) Resolved context configuration attributes: [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:25:48 (AbstractTestContextBootstrapper.java:488) Resolving ContextLoader for context configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:25:48 (AbstractTestContextBootstrapper.java:454) Using ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [com.cheer.test]
+TRACE [main] 2019-01-13 04:25:48 (AbstractTestContextBootstrapper.java:355) Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:25:48 (ApplicationContextInitializerUtils.java:73) Processing context initializers for configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:25:48 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.web.ServletTestExecutionListener@5b8dfcc1
+TRACE [main] 2019-01-13 04:25:48 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2f9f7dcf
+TRACE [main] 2019-01-13 04:25:48 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@747ddf94
+TRACE [main] 2019-01-13 04:25:48 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@35e2d654
+TRACE [main] 2019-01-13 04:25:48 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.transaction.TransactionalTestExecutionListener@1bd4fdd
+TRACE [main] 2019-01-13 04:25:48 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55183b20
+TRACE [main] 2019-01-13 04:25:49 (TestContextManager.java:209) beforeTestClass(): class [com.cheer.test]
+TRACE [main] 2019-01-13 04:25:49 (TestContextManager.java:240) prepareTestInstance(): instance [com.cheer.test@4802796d]
+TRACE [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.class]
+TRACE [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.class]
+TRACE [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.class]
+TRACE [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.class]
+TRACE [main] 2019-01-13 04:25:51 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.class]
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.driverClassName'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.url'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.username'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.password'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.initialSize'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxActive'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.filters'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxWait'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.minIdle'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.timeBetweenEvictionRunsMillis'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.minEvictableIdleTimeMillis'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.validationQuery'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testWhileIdle'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testOnBorrow'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testOnReturn'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.poolPreparedStatements'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxPoolPreparedStatementPerConnectionSize'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.removeAbandoned'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.removeAbandonedTimeout'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.logAbandoned'
+TRACE [main] 2019-01-13 04:25:51 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.connectionInitSqls'
+TRACE [main] 2019-01-13 04:25:51 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+TRACE [main] 2019-01-13 04:25:51 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:25:51 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:25:51 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:25:55 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+TRACE [main] 2019-01-13 04:25:55 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+TRACE [main] 2019-01-13 04:25:55 (TestContextManager.java:512) beforeTestMethod(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()]
+TRACE [main] 2019-01-13 04:25:55 (TestContextManager.java:512) beforeTestExecution(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()]
+TRACE [main] 2019-01-13 04:25:56 (SQLErrorCodesFactory.java:128) SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+TRACE [main] 2019-01-13 04:25:56 (TestContextManager.java:521) afterTestExecution(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()], exception [null]
+TRACE [main] 2019-01-13 04:25:56 (TestContextManager.java:521) afterTestMethod(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()], exception [null]
+TRACE [main] 2019-01-13 04:25:56 (TestContextManager.java:481) afterTestClass(): class [com.cheer.test]
+TRACE [main] 2019-01-13 04:27:30 (ContextLoaderUtils.java:266) Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(name=, value=[classpath:spring/applicationContext-*.xml], classes=[], loader=interface org.springframework.test.context.ContextLoader, initializers=[], inheritLocations=true, locations=[classpath:spring/applicationContext-*.xml], inheritInitializers=true)] for declaring class [com.cheer.test].
+TRACE [main] 2019-01-13 04:27:30 (ContextLoaderUtils.java:272) Resolved context configuration attributes: [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:27:30 (AbstractTestContextBootstrapper.java:488) Resolving ContextLoader for context configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:27:30 (AbstractTestContextBootstrapper.java:454) Using ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [com.cheer.test]
+TRACE [main] 2019-01-13 04:27:30 (AbstractTestContextBootstrapper.java:355) Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:27:30 (ApplicationContextInitializerUtils.java:73) Processing context initializers for configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:27:30 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.web.ServletTestExecutionListener@5b8dfcc1
+TRACE [main] 2019-01-13 04:27:30 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2f9f7dcf
+TRACE [main] 2019-01-13 04:27:30 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@747ddf94
+TRACE [main] 2019-01-13 04:27:30 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@35e2d654
+TRACE [main] 2019-01-13 04:27:30 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.transaction.TransactionalTestExecutionListener@1bd4fdd
+TRACE [main] 2019-01-13 04:27:30 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55183b20
+TRACE [main] 2019-01-13 04:27:30 (TestContextManager.java:209) beforeTestClass(): class [com.cheer.test]
+TRACE [main] 2019-01-13 04:27:30 (TestContextManager.java:240) prepareTestInstance(): instance [com.cheer.test@4802796d]
+TRACE [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.class]
+TRACE [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.class]
+TRACE [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.class]
+TRACE [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.class]
+TRACE [main] 2019-01-13 04:27:32 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.class]
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.driverClassName'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.url'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.username'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.password'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.initialSize'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxActive'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.filters'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxWait'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.minIdle'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.timeBetweenEvictionRunsMillis'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.minEvictableIdleTimeMillis'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.validationQuery'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testWhileIdle'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testOnBorrow'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testOnReturn'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.poolPreparedStatements'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxPoolPreparedStatementPerConnectionSize'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.removeAbandoned'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.removeAbandonedTimeout'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.logAbandoned'
+TRACE [main] 2019-01-13 04:27:32 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.connectionInitSqls'
+TRACE [main] 2019-01-13 04:27:32 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+TRACE [main] 2019-01-13 04:27:32 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:27:32 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:27:32 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:27:37 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+TRACE [main] 2019-01-13 04:27:37 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+TRACE [main] 2019-01-13 04:27:37 (TestContextManager.java:512) beforeTestMethod(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()]
+TRACE [main] 2019-01-13 04:27:37 (TestContextManager.java:512) beforeTestExecution(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()]
+TRACE [main] 2019-01-13 04:27:37 (SQLErrorCodesFactory.java:128) SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+TRACE [main] 2019-01-13 04:27:37 (TestContextManager.java:521) afterTestExecution(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()], exception [null]
+TRACE [main] 2019-01-13 04:27:37 (TestContextManager.java:521) afterTestMethod(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()], exception [null]
+TRACE [main] 2019-01-13 04:27:37 (TestContextManager.java:481) afterTestClass(): class [com.cheer.test]
+TRACE [main] 2019-01-13 04:29:41 (ContextLoaderUtils.java:266) Retrieved @ContextConfiguration [@org.springframework.test.context.ContextConfiguration(name=, value=[classpath:spring/applicationContext-*.xml], classes=[], loader=interface org.springframework.test.context.ContextLoader, inheritInitializers=true, initializers=[], locations=[classpath:spring/applicationContext-*.xml], inheritLocations=true)] for declaring class [com.cheer.test].
+TRACE [main] 2019-01-13 04:29:41 (ContextLoaderUtils.java:272) Resolved context configuration attributes: [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:29:41 (AbstractTestContextBootstrapper.java:488) Resolving ContextLoader for context configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:29:41 (AbstractTestContextBootstrapper.java:454) Using ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [com.cheer.test]
+TRACE [main] 2019-01-13 04:29:41 (AbstractTestContextBootstrapper.java:355) Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:29:41 (ApplicationContextInitializerUtils.java:73) Processing context initializers for configuration attributes [ContextConfigurationAttributes@31d7b7bf declaringClass = 'com.cheer.test', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+TRACE [main] 2019-01-13 04:29:41 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.web.ServletTestExecutionListener@5b8dfcc1
+TRACE [main] 2019-01-13 04:29:41 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2f9f7dcf
+TRACE [main] 2019-01-13 04:29:41 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@747ddf94
+TRACE [main] 2019-01-13 04:29:41 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@35e2d654
+TRACE [main] 2019-01-13 04:29:41 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.transaction.TransactionalTestExecutionListener@1bd4fdd
+TRACE [main] 2019-01-13 04:29:41 (TestContextManager.java:166) Registering TestExecutionListener: org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55183b20
+TRACE [main] 2019-01-13 04:29:41 (TestContextManager.java:209) beforeTestClass(): class [com.cheer.test]
+TRACE [main] 2019-01-13 04:29:41 (TestContextManager.java:240) prepareTestInstance(): instance [com.cheer.test@4802796d]
+TRACE [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapper.class]
+TRACE [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\ItemsMapperCustom.class]
+TRACE [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrderdetailMapper.class]
+TRACE [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\OrdersMapper.class]
+TRACE [main] 2019-01-13 04:29:43 (ClassPathScanningCandidateComponentProvider.java:426) Scanning file [E:\Develop\IDEA_work2018\springmvcTest\target\classes\com\cheer\mapper\UserMapper.class]
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.driverClassName'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.url'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.username'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.password'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.initialSize'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxActive'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.filters'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxWait'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.minIdle'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.timeBetweenEvictionRunsMillis'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.minEvictableIdleTimeMillis'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.validationQuery'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testWhileIdle'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testOnBorrow'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.testOnReturn'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.poolPreparedStatements'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.maxPoolPreparedStatementPerConnectionSize'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.removeAbandoned'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.removeAbandonedTimeout'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.logAbandoned'
+TRACE [main] 2019-01-13 04:29:43 (PropertyPlaceholderHelper.java:163) Resolved placeholder 'jdbc.connectionInitSqls'
+TRACE [main] 2019-01-13 04:29:43 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+TRACE [main] 2019-01-13 04:29:43 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:29:43 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:29:43 (BeanFactoryAdvisorRetrievalHelper.java:86) Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+TRACE [main] 2019-01-13 04:29:48 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+TRACE [main] 2019-01-13 04:29:48 (AbstractAutoProxyCreator.java:380) Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+TRACE [main] 2019-01-13 04:29:48 (TestContextManager.java:512) beforeTestMethod(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()]
+TRACE [main] 2019-01-13 04:29:48 (TestContextManager.java:512) beforeTestExecution(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()]
+TRACE [main] 2019-01-13 04:29:48 (BaseJdbcLogger.java:165) <==    Columns: id, name, price, detail, pic, createtime
+TRACE [main] 2019-01-13 04:29:48 (BaseJdbcLogger.java:165) <==        Row: 1, 台式机, 3000.0, <<BLOB>>, null, 2015-02-03 13:22:53.0
+TRACE [main] 2019-01-13 04:29:48 (BaseJdbcLogger.java:165) <==        Row: 2, 笔记本, 6000.0, <<BLOB>>, null, 2015-02-09 13:22:57.0
+TRACE [main] 2019-01-13 04:29:48 (BaseJdbcLogger.java:165) <==        Row: 3, 背包, 200.0, <<BLOB>>, null, 2015-02-06 13:23:02.0
+TRACE [main] 2019-01-13 04:29:48 (TestContextManager.java:521) afterTestExecution(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()], exception [null]
+TRACE [main] 2019-01-13 04:29:48 (TestContextManager.java:521) afterTestMethod(): instance [com.cheer.test@4802796d], method [public void com.cheer.test.getItems()], exception [null]
+TRACE [main] 2019-01-13 04:29:48 (TestContextManager.java:481) afterTestClass(): class [com.cheer.test]
